@@ -1,7 +1,28 @@
 .nav_bar {
-
+  display: flex;
+  bore
 }
 .titulo {
   color: #5a2908;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navegacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: rgb(163, 123, 78);
+  border-radius: 100px;
+  padding: 3px;
+}
+
+.hero {
+  display: flex;
+  color: #5a2908;
+  font-size: 48px;
+}
+.links_nav {
+  color: #5a2908;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration-line: none;
 }
