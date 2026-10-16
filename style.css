@@ -57,7 +57,6 @@ body {
   align-items: center;
   gap: 80px;
   border-top-left-radius: 200px;
-  
 }
 
 .footer__texto {
@@ -65,9 +64,8 @@ body {
   flex-direction: column;
   margin-left: 30px;
   font-family: Arial, Helvetica, sans-serif;
-  
 }
-.footer__estatisticas{
+.footer__estatisticas {
   display: flex;
   gap: 25px;
 }
@@ -113,11 +111,9 @@ body {
   background-color: #f4eeea;
   border-radius: 20px;
 }
-.footer__imagem{
-width: 500px;
-display: inline-block;
-
-
+.footer__imagem {
+  width: 500px;
+  display: inline-block;
 }
 .icons {
   width: 24px;
@@ -146,3 +142,5 @@ display: inline-block;
   color: #6b2e08;
   margin-top: 40px;
 }
+
+
