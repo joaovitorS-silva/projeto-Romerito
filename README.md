@@ -1,23 +1,45 @@
-# projeto-Romerito
+# Neabi Coffee
+Projeto desenvolvido para a disciplina de Design Web, com o tema de uma cafeteria chamada Neabi Coffee.
 
-1.NEABI coffe
+# Integrantes
 
-2.integrantes do grupo: João Vitor da Silva Santos , pedro diogo paiva de lima e marcos felipe
+João Vitor da Silva Santos
 
-3.escolhemos uma landing page
+Pedro Diogo Paiva de Lima
 
-4.....
+Marcos Felipe
 
-5....
+# Tema e objetivo
 
-6...
+o projeto tem como objetivo apresentar a cafeteria e também destacar alguns cafés que fazem sucesso naquela cafeteria, além de podemos oferecer avaliações sobre o produto e exibir algumas informações de ajuda.
 
-7...
+Além disso escolhemos uma paleta mais leve para combinar com o clima do café.
 
-8...
+# Tipo de layout
 
-9...
+Escolhemos uma página inicial no formato de landing page, com navegação no topo e uma seção principal de apresentação.
 
-10...
+O menu permite acessar as páginas de Produtos, Avaliações e Ajuda.
 
-11...
+# Componentes simples planejados
+
+Link de navegação: utilizado no menu para acessar as páginas.
+
+Botão: utilizado em chamadas para ação, como provavelmente algum de "ajuda".
+
+uma badge: para destacar informações dos produtos, como “Mais pedido”.
+
+Avatar: utilizado para representar os autores das avaliações.
+
+# Componentes compostos planejados
+
+Nav bar: reúne os links de acesso às páginas.
+
+Seção de apresentação: reúne imagem, título, descrição e chamada para ação.
+
+Card de produto: reúne imagem, nome, descrição, badge e botão.
+
+
+
+#### Planejamento do layout ####
+A organização das páginas está em docs/wireframe.md.
