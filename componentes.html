@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca de Componentes | Neabi Coffee</title>
+    <link rel="stylesheet" href="componentes.css">
+</head>
+<body>
+    <main class="biblioteca">
+        <h1 class="biblioteca__titulo">Neabi Coffee</h1>
+        <p class="biblioteca__descricao">Biblioteca de componentes do projeto.</p>
+
+        <section class="catalogo">
+            <h2 class="catalogo__titulo">Componentes simples</h2>
+
+            <div class="catalogo__grupo">
+                <h3 class="catalogo__nome">Links de navegação</h3>
+
+                <a class="navbar__link" href="home.html">Início</a>
+                <a class="navbar__link navbar__link--active" href="products.html">Produtos</a>
+            </div>
+
+            <div class="catalogo__grupo">
+                <h3 class="catalogo__nome">Botões</h3>
+
+                <a class="botao" href="products.html">Ver produtos</a>
+                <a class="botao botao--secundario" href="facility.html">Ajuda</a>
+            </div>
+
+            <div class="catalogo__grupo">
+                <h3 class="catalogo__nome">Badge</h3>
+
+                <span class="badge">Mais pedido</span>
+            </div>
+        </section>
+
+        <section class="catalogo">
+            <h2 class="catalogo__titulo">Componentes compostos</h2>
+
+            <div class="catalogo__grupo">
+                <h3 class="catalogo__nome">Barra de navegação</h3>
+
+                <nav class="navbar">
+                    <a class="navbar__link navbar__link--active" href="home.html">Início</a>
+                    <a class="navbar__link" href="products.html">Produtos</a>
+                    <a class="navbar__link" href="reviews.html">Avaliações</a>
+                    <a class="navbar__link" href="facility.html">Ajuda</a>
+                </nav>
+            </div>
+
+            <div class="catalogo__grupo">
+                <h3 class="catalogo__nome">Seção de apresentação</h3>
+
+                <section class="apresentacao">
+                    <div class="apresentacao__texto">
+                        <h2 class="apresentacao__titulo">Neabi Coffee</h2>
+
+                        <p class="apresentacao__descricao">
+                            Descubra nossos cafés especiais, preparados
+                            com grãos selecionados para proporcionar
+                            uma experiência única a cada xícara.
+                        </p>
+
+                        <a class="botao" href="products.html">Ver produtos</a>
+                    </div>
+
+                    <img
+                        class="apresentacao__imagem"
+                        src="image/imagem_hero.jpg"
+                        alt="Café da Neabi Coffee"
+                    >
+                </section>
+            </div>
+
+            <div class="catalogo__grupo">
+                <h3 class="catalogo__nome">Card de produto</h3>
+
+                <article class="produto">
+                    <img
+                        class="produto__imagem"
+                        src="image/cafe__papel-removebg-preview.png"
+                        alt="Café da Neabi Coffee"
+                    >
+
+                    <div class="produto__conteudo">
+                        <span class="badge">Mais pedido</span>
+
+                        <h3 class="produto__titulo">Café especial</h3>
+
+                        <p class="produto__descricao">
+                            Um café especial para aproveitar cada momento.
+                        </p>
+
+                        <a class="botao" href="products.html">Ver produto</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
